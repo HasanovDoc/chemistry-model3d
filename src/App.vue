@@ -1,18 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <div class="main-list">
+    <div 
+      v-for="item in modelInfo"
+      :key="item.name"
+      class="model-item"
+    >
+      <Main :data="{ name: item.name, description: item.description, link: item.link }"/>
+    </div>
+  </div>
 </template>
 
-<script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import HelloWorld from './components/HelloWorld.vue';
+<script setup lang="ts">
+import Main from './components/MainComponent.vue';
+import {modelInfo} from './data'
 
-@Options({
-  components: {
-    HelloWorld,
-  },
-})
-export default class App extends Vue {}
+
 </script>
 
 <style lang="scss">
@@ -22,6 +25,20 @@ export default class App extends Vue {}
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+body{
+  box-sizing: border-box;
+  background-image: url('assets/background_Chemistry.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.main-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 </style>
