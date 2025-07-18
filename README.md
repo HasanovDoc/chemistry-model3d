@@ -1,24 +1,28 @@
-# chemistry-model3d-2
+# 3D Chemistry Models Viewer
 
-## Project setup
-```
-npm install
-```
+🌍 [Live Demo](https://hasanovdoc.github.io/chemistry-model3d/) | ⚛️ Interactive 3D molecular structures
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Интерактивная веб-страница для просмотра 3D моделей молекул различных химических соединений с использованием [MolView](https://embed.molview.org/).
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## ✨ Особенности
 
-### Lints and fixes files
-```
-npm run lint
-```
+- 🔍 Интерактивное 3D представление молекул
+- 🎨 Чистый и современный интерфейс
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 🚀 Как использовать
+
+1. Откройте [демо-страницу](https://hasanovdoc.github.io/chemistry-model3d/)
+2. Выберите соединение из списка
+3. Вращайте, масштабируйте и изучайте 3D модель
+   - ЛКМ + движение - вращение
+   - ПКМ + движение - перемещение
+   - Колесо мыши - масштабирование
+
+## 🛠 Технологии
+
+- HTML5
+- CSS3
+- JavaScript
+- [MolView Embed API](https://embed.molview.org/)
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
