@@ -1,6 +1,6 @@
 # 3D Chemistry Models Viewer
 
-🌍 [Live Demo](https://hasanovdoc.github.io/chemistry-model3d/) | ⚛️ Interactive 3D molecular structures
+[![Live Demo](https://img.shields.io/badge/Demo-Live-green?style=for-the-badge)](https://hasanovdoc.github.io/Graph-Drawing/)
 
 Интерактивная веб-страница для просмотра 3D моделей молекул различных химических соединений с использованием [MolView](https://embed.molview.org/).
 
@@ -26,4 +26,6 @@
 - Vue3 (Composition API)
 - [MolView Embed API](https://embed.molview.org/)
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
