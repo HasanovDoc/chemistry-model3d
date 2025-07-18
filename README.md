@@ -23,6 +23,7 @@
 - HTML5
 - CSS3
 - JavaScript
+- Vue3 (Composition API)
 - [MolView Embed API](https://embed.molview.org/)
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
